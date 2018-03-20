@@ -17,7 +17,7 @@ public class PathMutator {
      */
     public static Vertex[] mutate(Vertex[] path) {
         Vertex[] mutatedPath = path.clone();
-        //Create random geVertex[] mutatedPathnerator
+        //Create random generator
         Random rand = new Random();
         //Get first index 
         int ind1 = rand.nextInt(TSP.numVertices);
